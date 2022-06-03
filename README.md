@@ -12,6 +12,24 @@
     <br>
     <li class="list-group-item">5. now autowire the interface in the currency-conversion and access the method</li>
     <br>
+</ul>
 
-    <hr>
+<h1>Service Discovery</h1>
+
+<ul class="list-group">
+    <li class="list-group-item">1.create a service discovery project & import the maven dependency spring-cloud-starter-netflix-eureka-server</li>
+    <br>
+    <li class="list-group-item">2. add @EnableEurekaServer in the main file of the server file
+    </li>
+    <br>
+    <li class="list-group-item">4. spring.application.name=naming-server, server.port=8761, eureka.client.register-with-eureka=false, eureka.client.fetch-registery=false</li>
+    <br>
+    <li class="list-group-item">5. check localhost:8761 on browser</li>
+    <br>
+    <li class="list-group-item">6. add spring-cloud-starter-netflix-eureka-client in the clients & annotate in </li>
+    <br>
+    <li class="list-group-item">7. check localhost:8761 on browser for namign server</li>
+    <br>
+    <li class="list-group-item">8. eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka in all client servers</li>
+    <br>
 </ul>
