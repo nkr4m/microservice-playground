@@ -43,8 +43,6 @@
     <li class="list-group-item">2. spring.application.name=api-gateway, server.port=8765, eureka.client... , spring.cloud.gateway.discovery.locator.enabled=TRUE, spring.cloud.gateway.discovery.locator.lowerCaseServiceId=true(lowercase the url)
     </li>
     <br>
-    <li class="list-group-item">4. </li>
-    <br>
-    <li class="list-group-item">5. http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/...</li>
+    <li class="list-group-item">4. http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/...</li>
     <br>
     </ul>
