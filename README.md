@@ -33,3 +33,18 @@
     <li class="list-group-item">8. eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka in all client servers</li>
     <br>
 </ul>
+
+
+<h1>Api gateway (spring cloud gateway)</h1>
+
+<ul class="list-group">
+    <li class="list-group-item">1.create a api-gateway project & import the maven dependency  spring cloud routing (gateway), eureka-client, dev-tools, actuator</li>
+    <br>
+    <li class="list-group-item">2. spring.application.name=api-gateway, server.port=8765, eureka.client... , spring.cloud.gateway.discovery.locator.enabled=TRUE, spring.cloud.gateway.discovery.locator.lowerCaseServiceId=true(lowercase the url)
+    </li>
+    <br>
+    <li class="list-group-item">4. </li>
+    <br>
+    <li class="list-group-item">5. http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/...</li>
+    <br>
+    </ul>
